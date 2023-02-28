@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <style>
+        table th,td{
+            border:2px solid greenyellow;
+            /* padding:10px; */
+            text-align:center;
+            border-radius:none;
+        }
+        table{
+            /* padding:100px; */
+            /* margin:100px; */
+            border:none;
+            color:red;
+            width:100%;
+            height:300px;
+            /* border: spacing 100px; */
+            border-collapse: collapse;
+            /* background-image: url(/dalesteyn.jpg); */
+            background-size:cover;
+            /* background-repeat:no-repeat; */
+            background-size:100% 100%;
+            
+            /* position: fixed; */
+        }
+        #c1{
+            background-color:pink;
+        }
+        #c2{
+            background-color:black
+        }
+        #c3{
+            background-color:aquamarine;
+        }
+        h1{
+            text-align:center;
+            border:2px solid greenyellow;
+            padding:none;
+            margin:none;
+
+        }
+        tr:nth-child(1){
+            /* background-color:red */
+        }
+        tr:nth-child(5){
+            /* background-color:red */
+        }
+    </style>
+    <!-- <h1>Punjabi University</h1> -->
+    <!-- <th>Punjabi University</th> -->
+    <table>
+        <colgroup id="c1">
+        <col span="2"> </colgroup>
+        <colgroup id="c2">
+            <col span="2"> </colgroup>
+            <colgroup id="c3">
+                <col span="1"> </colgroup>
+        <th colspan="8">Punjabi University</th>
+        <tr>
+            <th>Period</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednessday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maths</td>
+            <td colspan="3">Science</td>
+            <!-- <td>History</td> -->
+            <!-- <td>Geography </td> -->
+            <td>Polity</td>
+            <td>Game</td>
+            <td>Holiday</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>Polity</td>
+            <td>Game</td>
+            <td>Holiday</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>Polity</td>
+            <td>Game</td>
+            <td>Holiday</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>Polity</td>
+            <td>Game</td>
+            <td>Holiday</td>
+        </tr>
+    </table>
+</body>
+</html>
